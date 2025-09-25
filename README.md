@@ -152,11 +152,11 @@ The system extracts 30 comprehensive features from each mammographic image:
 | XGBoost   | 98.5%           | 93.4%           | 0.96      |
 | Random Forest | 99.6%       | 93.1%           | 0.95      |
 | CNN       | 92.4%           | 91.9%           | 0.94      |
-| SVM       | -               | 89.0%           | 0.92      |
-| Decision Tree | -           | 86.7%           | 0.89      |
-| Naive Bayes | -             | 82.8%           | 0.87      |
-| KNN       | -               | 78.8%           | 0.84      |
-| K-Means   | -               | 76.9%           | 0.81      |
+| SVM       | 91.5%              | 89.0%           | 0.92      |
+| Decision Tree | 91.2%          | 86.7%           | 0.89      |
+| Naive Bayes | 83.2%             | 82.8%           | 0.87      |
+| KNN       | 81.2%               | 78.8%           | 0.84      |
+| K-Means   | 77.5%               | 76.9%           | 0.81      |
 
 ### Evaluation Metrics
 - **Confusion Matrix**: Detailed breakdown of predictions
