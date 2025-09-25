@@ -225,25 +225,6 @@ breast-cancer-detection/
 4. Push to the branch (`git push origin feature/improvement`)
 5. Create a Pull Request
 
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Citation
-
-If you use this code in your research, please cite:
-
-```bibtex
-@article{jagdale2024breast,
-  title={Early Breast Cancer Detection Using Machine Learning and Deep Learning Algorithms},
-  author={Jagdale, Manthan Vasant and Patil, Vedant Dilip and Tekale, Prachi Prakash},
-  journal={K.J. Somaiya Institute of Technology},
-  year={2024}
-}
-```
-
-
 ## Disclaimer
 
 This tool is intended for research and educational purposes only. It should not be used as a substitute for professional medical diagnosis. Always consult qualified healthcare providers for medical decisions.
