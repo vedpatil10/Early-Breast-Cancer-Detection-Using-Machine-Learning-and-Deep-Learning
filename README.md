@@ -2,7 +2,7 @@
 
 A comprehensive machine learning and deep learning solution for early breast cancer detection using mammographic images. This project implements multiple algorithms to classify breast masses as benign or malignant, achieving high accuracy rates for improved diagnostic support.
 
-<img width="1200" height="753" alt="image" src="https://github.com/user-attachments/assets/1fb0bc8c-918e-4028-8c1b-e9ca925a6fec" />
+<img width="900" height="700" alt="image" src="https://github.com/user-attachments/assets/1fb0bc8c-918e-4028-8c1b-e9ca925a6fec" />
 
 
 ## Features
