@@ -2,6 +2,9 @@
 
 A comprehensive machine learning and deep learning solution for early breast cancer detection using mammographic images. This project implements multiple algorithms to classify breast masses as benign or malignant, achieving high accuracy rates for improved diagnostic support.
 
+<img width="1200" height="753" alt="image" src="https://github.com/user-attachments/assets/1fb0bc8c-918e-4028-8c1b-e9ca925a6fec" />
+
+
 ## Features
 
 - Multi-Algorithm Approach: Implements 8 different ML/DL algorithms for comprehensive comparison
@@ -188,18 +191,6 @@ breast-cancer-detection/
 └── README.md
 ```
 
-## Medical Relevance
-
-### Clinical Applications
-- **Early Detection**: Improved survival rates through timely diagnosis
-- **Diagnostic Support**: Assists radiologists in mammogram interpretation
-- **Screening Programs**: Automated analysis for large-scale screening
-- **Resource Optimization**: Reduces workload in resource-limited settings
-
-### Social Impact
-- **Healthcare Accessibility**: Democratizes breast cancer screening
-- **Cost Reduction**: Minimizes expensive false positive investigations
-- **Public Health**: Supports population-wide screening initiatives
 
 ## Results & Findings
 
@@ -216,14 +207,6 @@ breast-cancer-detection/
 - **Real-Time Processing**: Optimize for clinical deployment
 - **Explainable AI**: Implement LIME/SHAP for decision interpretability
 - **Mobile Application**: Develop smartphone-based screening tool
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/improvement`)
-3. Commit your changes (`git commit -am 'Add new feature'`)
-4. Push to the branch (`git push origin feature/improvement`)
-5. Create a Pull Request
 
 ## Disclaimer
 
