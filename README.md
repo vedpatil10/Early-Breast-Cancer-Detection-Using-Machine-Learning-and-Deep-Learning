@@ -16,6 +16,8 @@ A comprehensive machine learning and deep learning solution for early breast can
 - Cell Detection: Optional cancer cell visualization and region highlighting
 - Model Persistence: Save and load trained models for deployment
 
+**Dataset** - https://drive.google.com/drive/folders/19SJc7-ulL1uRwOzmBt6BDYUFdNWTj_LA?usp=sharing
+
 ## Algorithms Implemented
 
 ### Machine Learning Models
@@ -80,46 +82,6 @@ A comprehensive machine learning and deep learning solution for early breast can
    pip install tensorflow keras xgboost imbalanced-learn scikit-image
    pip install tqdm joblib
    ```
-
-## Usage
-
-### 1. Feature Extraction
-```python
-from feature_extraction import BreastTumorFeatureExtractor
-
-extractor = BreastTumorFeatureExtractor()
-features_df = extractor.extract_features_from_folder('path/to/images/', 'features.csv')
-```
-
-### 2. Training Models
-```python
-from cancer_classifier import CancerClassifier
-
-classifier = CancerClassifier()
-classifier.load_and_preprocess('features.csv')
-classifier.train_model()
-classifier.evaluate_model()
-```
-
-### 3. Making Predictions
-```python
-# Import feature extractor
-classifier.import_feature_extractor('feature_extraction.py')
-
-# Predict on new image
-result = classifier.predict_from_image('mammogram.jpg', display_image=True)
-print(f"Prediction: {result['cancer_type']}")
-print(f"Confidence: {result['confidence']:.2%}")
-```
-
-### 4. Model Management
-```python
-# Save trained model
-classifier.save_model('trained_model.pkl')
-
-# Load existing model
-classifier.load_model('trained_model.pkl')
-```
 
 ## Feature Extraction
 
